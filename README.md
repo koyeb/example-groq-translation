@@ -51,16 +51,16 @@ If you want to customize and enhance this application, you need to fork this rep
 If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.
 Alternatively, you can manually create the application as described below.
 
-On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** button to go to the App creation page.
+On the [Koyeb Control Panel](//app.koyeb.com/apps), on the **Overview** tab, click the **Create Web Service** button to begin.
 
-1. Select **GitHub** as the deployment method to use.
+1. Select **GitHub** as the deployment method.
 2. In the repositories list, select the repository you just forked.
-3. Under **Builder** configure your Run command by enabling the override toggle associated with the **Run command** field and entering `streamlit run main.py`.
+3. In the **Builder** section, enable the **override** toggle associated with the **Run command** and enter `streamlit run main.py` in the field.
 4. Under **Environment variables**, click **Add variable** to add your Groq API key as `GROQ_API_KEY`.
 5. Under **Exposing your service**, change the port selection to port 8501, as used by Streamlit.
-6. In the Instance selection, select an Instance of type **Small** or larger.
+6. In the **Instance** section, select an Instance of type **Small** or larger.
 7. Under **App and Service names**, rename your App to whatever you'd like. For example, `groq-translation`. Note the name will be used to create the public URL for this app. You can [add a custom domain](https://www.koyeb.com/docs/run-and-scale/domains) later if you'd like.
-8. Finally, click the Deploy button.
+8. Finally, click **Deploy**.
 
 You will be taken to the deployment page where you can follow the build of your application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
 
