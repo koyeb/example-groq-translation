@@ -61,7 +61,7 @@ tenacity==8.2.3
 tokenizers==0.15.2
 toml==0.10.2
 toolz==0.12.1
-tornado==6.4
+tornado==6.4.1
 tqdm==4.66.2
 typing_extensions==4.10.0
 tzdata==2024.1
