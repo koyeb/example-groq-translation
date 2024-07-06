@@ -6,7 +6,7 @@ audio-recorder-streamlit==0.0.8
 av==11.0.0
 blinker==1.7.0
 cachetools==5.3.3
-certifi==2024.2.2
+certifi==2024.7.4
 charset-normalizer==3.3.2
 click==8.1.7
 coloredlogs==15.0.1
